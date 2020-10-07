@@ -13,3 +13,10 @@ describe("primeNumber", () => {
     
     })
     })
+
+    describe("primeNumber", () => { 
+
+        it("should return the highest prime number", () => { expect(primeNumber(300)).toBe(12); 
+        
+        })
+        })
